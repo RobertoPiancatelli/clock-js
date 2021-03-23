@@ -1,0 +1,32 @@
+// Place all the styles related to the Clocks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+.clock {
+  position: relative;
+  height: 100px;
+  left: 40%;
+  background: #333333;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.clock-time,
+.clock-ampm {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #eeeeee;
+}
+
+.clock-time {
+  font-size: 48px;
+}
